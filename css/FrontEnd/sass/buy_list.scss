@@ -1,0 +1,305 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+.buy_list
+	{
+		width: 100%;
+
+	}
+.b_l_box
+	{
+		/*width: 60%;*/
+		width: 1110px;
+		margin-right: 6%;
+		float: right;
+		margin-top: 3.6%;
+	}
+.b_list
+	{
+		width: 64%;
+		/*width: 710px;*/
+		margin-right: 22%;
+
+	}
+.b_list_box
+	{
+		width: 100%;
+		height: 44px;
+		font-size: 14px;
+		padding-top: 1.2%;
+	}
+.b_l_nub
+	{
+		width: 17%;
+		padding-left: 4%;
+		padding-top: 1%;
+	}
+.b_l_mean
+	{
+		width: 48%;
+		padding-left: 3%;
+		padding-top: 1%;
+	}
+.b_l_range
+	{
+		width: 13%;
+		margin-left: 2%;
+		margin-right: 2%;
+		.range_box
+			{
+				width: 92px;
+				height: 29px;
+				background-color: #ffffff;
+				border: 1px solid #cccccc;
+			}
+		.butt
+			{
+				border: none;
+				background: none;
+				outline: none;
+				margin: 0px;
+				padding: 0px;
+				cursor: pointer;
+			}
+		.num
+			{
+				border-right:  1px solid #cccccc;
+				border-left:  1px solid #cccccc;
+				
+				width: 55%;
+				height: 100%;
+				outline: none;
+			}
+		.bor_n
+			{
+				padding-top: 3px;
+				height: 100%;
+				text-align: center;
+				width: 100%;
+			}
+
+	}
+.b_l_money
+	{
+		width: 12%;
+		padding-top: 1%;
+		padding-left: 8%;
+
+	}
+.tile
+	{
+		width: 100%;
+		height: 3.1%;
+		font-size: 14px;
+		background-image: url(../../../images/buy_list_23.png);
+		padding-top: 1.5%;
+		padding-left: 53%;
+		letter-spacing: 2px;
+	}
+.red_in
+	{
+		color: #da0505;
+		margin-left: 2%;
+	}
+.l_b_imprt
+	{
+		width: 100%;
+		font-size: 12px;
+		color: #393939;
+		padding-top: 3%;
+		padding-bottom: 0.5%;
+		padding-left: 37%;
+	}
+.b_l_order
+	{
+		width: 100%;
+		margin-top: 1%;
+		border-bottom: 1px solid rgba(73,54,54,0.8)
+	}
+.b_l_o_info
+	{
+		width: 100%;
+		height: 22px;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		padding-left: 2%;
+		font-size: 14px;
+		color: #3d3934;
+		.name
+			{
+				width: 38%;
+				margin-right: 8%;
+			}
+		.phone
+			{
+				width: 30%;
+			}
+		.add
+			{
+				width: 62%;
+			}
+		.ma
+			{
+				margin-right: 3%;
+			}
+		.email
+			{
+				width: 61%;
+			}
+		.note
+			{
+				width: 88%;
+			}
+	}
+.order_type
+	{
+		width: 12%;
+		padding-top: 0.9%;
+		
+	}
+.order_type_a
+	{
+		width: 12%;
+		letter-spacing: 1px;
+		padding-top: 0.9%;
+		
+	}
+.order_input
+	{
+		outline: none;
+		height: 100%;
+		padding-left: 3px;
+		border: 1px solid #d4d4d4;
+	}
+.b_l_sel
+	{
+		width: 12%;
+		height: 100%;
+		text-align: center;
+		font-size: 12px;
+		color: #515151;
+		outline: none;
+		margin-right: 1%;
+		border: 1px solid #d4d4d4;
+	}
+.button_box
+	{
+		margin-top: 4%;
+		margin-left: 80%;
+	}
+.b_l_button
+	{
+		border: none;
+		padding: 0px;
+		background: none;
+		outline: none;
+		cursor: pointer;
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+.p_i_pic
+	{
+		width: 78.5%;
+	}
+.p_i_left
+	{
+		margin-top: 1%;
+		margin-right: 7%;
+		margin-left: 20%;
+		width: 37%;
+	}
+.p_i_right
+	{
+		width: 30%;
+	}
+.p_i_t
+	{
+		font-size: 20px;
+		margin-bottom: 4%;
+		color: #8a0808;
+	}
+.p_i_w
+	{
+		font-size: 12px;
+		color: #1a1a1a;
+		line-height: 26px;
+		letter-spacing: 1.7px;
+	}
+.sel
+	{
+		width: 38%;
+		height: 3%;
+		padding: 3px;
+		font-size: 12px;
+		color: #4e3f32;
+		outline: none;
+		margin-right: 2%;
+		border: 1px solid #97b9f0;
+	}
+.button_box
+	{
+		margin-top: 4%;
+	}
+.p_i_button
+	{
+		border: none;
+		padding: 0px;
+		margin-right: 2%;
+		background: none;
+		outline: none;
+		cursor: pointer;
+		width: 38%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

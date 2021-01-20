@@ -1,0 +1,104 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+.shopping
+	{
+		margin: 0px auto;
+		/*width: 38.35%;*/
+		width: 715px;
+
+	}
+.sop_pic
+	{
+		width: 100%;
+	}
+.sop_box
+	{
+		margin: 0px auto;
+		width: 50%;
+		font-size: 14px;
+		padding-top: 2%;
+		color: #3b3b3b;
+
+		.sop_line
+			{
+				width: 100%;
+				padding-left: 1%;
+				margin-top: 3%;
+				margin-bottom: 3%;
+			}
+		.sop_nub
+			{
+				
+				width: 20%;
+			}
+		.sop_nub_a
+			{
+
+				width: 26%;
+			}
+		.sop_nub_b
+			{
+
+				width: 26%;
+				color: #c80000;
+				margin-right: 11%;
+			}
+		.sop_way
+			{
+
+				width: 20%;
+				
+			}
+		.sop_way_a
+			{
+
+				width: 13%;
+			}
+		.sop_bank
+			{
+				width: 40%;
+				letter-spacing: 0.6px;
+				margin-right: 7%;
+			}
+
+
+
+
+
+
+		.sop_w
+			{
+
+				/*text-align: center;*/
+				color: #c80000;
+				font-size: 12px;
+				margin-top: 8%;
+				margin-bottom: 8%;
+
+			}
+	}
+
+.button_box
+	{
+		width: 40%;
+		margin-left: 25%;
+		
+	}
+.sop_button
+	{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		background: none;
+		margin-right: 20px;
+		margin-top: 1%;
+	}

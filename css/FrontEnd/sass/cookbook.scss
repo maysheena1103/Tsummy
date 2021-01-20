@@ -1,0 +1,128 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+.cookbook
+	{
+		/*width: 38%;*/
+		width: 709px;
+		margin: 0px auto;
+	}
+
+.cb_pic
+	{
+		width: 100%;
+		margin-top: -6%;
+	}
+.cb_box
+	{
+		width: 100%;
+		font-size: 14px;
+		padding-top: 2%;
+
+		a:link {color:#626262;}
+		a:visited {color:#626262;}
+		a:active {color:#c9643e;}
+		a:hover {color:#c9643e;}
+		.cb_line
+			{
+				width: 100%;
+				height: 3.1%;
+				padding-top: 1.5%;
+				/*padding: 10%;*/
+				
+
+			}
+		.cb_nub
+			{
+				text-align: center;
+				width: 12%;
+			}
+		.cb_mean
+			{
+				/*text-align: center;*/
+				width: 52.5%;
+				padding-left: 3%;
+			}
+		.cb_time
+			{
+				text-align: center;
+				width: 20.5%;
+			}
+		.cb_pep
+			{
+				/*text-align: center;*/
+				width: 15%;
+				padding-left: 7%;
+			}
+	}
+.cb_word
+	{
+		color: #3f3f3f;
+		font-size: 10px;
+		line-height: 16px;
+		padding-left: 9px;
+		/*height: 155px;*/
+		/*width: 390px;*/
+	}
+.pages
+	{
+		margin-left: 90%;
+		margin-top: 2%;
+		height: 16px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*cookbook_in*/
+.cookbook_in
+	{
+		/*width: 42%;*/
+		width: 783px;
+		margin: 0px auto;
+	}
+.cbi_box
+	{
+		width: 100%;
+		margin-bottom: 8%;
+	}
+.cbi_tit_b
+	{
+		width: 24%;
+	}
+.cbi_title
+	{
+		color: #7c0000;
+		font-size: 12px;
+		margin-bottom: 4%;
+	}
+.cbi_pic
+	{
+		width: 100%;
+	}
+.cbi_word
+	{
+		color: #3f3f3f;
+		font-size: 12px;
+		line-height: 20px;
+		padding-left: 9px;
+		/*height: 155px;*/
+		/*width: 390px;*/
+	}
+.pages_in
+	{
+		margin-left: 45%;
+		width: 20%;
+		height: 16px;
+	}

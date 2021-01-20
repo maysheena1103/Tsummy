@@ -1,0 +1,99 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+.product_in
+	{
+		width: 100%
+	}
+.p_i_box
+	{
+		/*width: 61.6%;*/
+		 width: 1149px; 
+		margin-right: 6%;
+		float: right;
+		margin-top: 3.6%;
+
+	}
+
+.p_i_pic
+	{
+		/*width: 78.5%;*/
+		width: 994px;
+	}
+.p_i_left
+	{
+		margin-top: 1%;
+		margin-right: 6%;
+		
+		width: 41%;
+		/*width: 471px;*/
+
+	}
+.p_i_right
+	{
+		width: 26%;
+		margin-right: 3%;
+		/*width: 299px;*/
+	}
+.p_i_t
+	{
+		font-size: 20px;
+		margin-bottom: 4%;
+		color: #8a0808;
+	}
+.p_i_w
+	{
+		font-size: 12px;
+		color: #1a1a1a;
+		line-height: 26px;
+		letter-spacing: 1.7px;
+	}
+.sel
+	{
+		width: 48%;
+		/*width: 143px;*/
+		height: 3%;
+		padding: 3px;
+		font-size: 12px;
+		color: #4e3f32;
+		outline: none;
+		margin-right: 2%;
+		border: 1px solid #97b9f0;
+	}
+.button_box
+	{
+		margin-top: 4%;
+	}
+.p_i_button
+	{
+		border: none;
+		padding: 0px;
+		margin-right: 2%;
+		background: none;
+		outline: none;
+		cursor: pointer;
+		width: 48%;
+		/*width: 143px;*/
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

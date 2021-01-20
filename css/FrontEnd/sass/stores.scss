@@ -1,0 +1,41 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+
+.store
+	{
+		margin: 0px auto;
+		/*width: 31%;*/
+		width: 579px;
+
+	}
+.i_pic
+	{
+		width: 27%;
+		margin-left: 3%;
+		margin-right: 3%;
+		.i_p_s
+			{
+				@include box-shadow(rgb(194,168,142) 2px 2px 2px);
+			}
+	}
+.i_s_word
+	{
+		color: #b10000;
+		margin: 14%;
+		margin-left: 30%;
+		font-size: 14px;
+	}
+.i_s_word_a
+	{
+		color: #323232;
+		margin: 14%;
+		margin-left: 30%;
+		font-size: 14px;
+	}

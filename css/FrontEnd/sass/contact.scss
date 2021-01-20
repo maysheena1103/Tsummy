@@ -1,0 +1,125 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+.contact
+	{
+		margin: 0px auto;
+		width: 639px;
+		/*width: 34.3%;*/
+	}
+.con_notice
+	{
+		padding-left: 2%;
+		color: #706c6b;
+		font-size: 12px;
+		line-height: 18px;
+		letter-spacing: 4px;
+	}
+.con_type
+	{
+		color: #323232;
+		font-size: 12px;
+		padding-top: 1%;
+	}
+.con_typebox
+	{
+		padding-top: 1.4%;
+		padding-bottom: 1.4%;
+		height: 43px;
+		.con_name
+			{
+				padding-top: 1%;	
+			}
+		.name
+			{
+				width: 55%;
+			}
+		.mail
+			{
+				width: 71%;
+			}
+		.phone
+			{
+				width: 27%;
+			}
+		.add
+			{
+				width: 76%;
+			}
+		.con_input
+			{
+				outline: none;
+				height: 100%;
+				margin-left: 1.4%;
+				border: none;
+				padding-left: 3px;
+			}
+		.import
+			{
+				color: #982e0d;
+				padding: 1%;
+			}
+		.textarea
+			{
+				width: 76%;
+				height: 129px;
+				outline: none;
+				border: none;
+				padding: 3px;
+				margin-left: 1.4%;
+
+			}
+
+	}
+.con_typebox_a
+	{
+		padding-top: 1.4%;
+		padding-bottom: 1.4%;
+		height: 129px;
+		.con_name
+			{
+				padding-top: 1%;	
+			}
+		.textarea
+			{
+				width: 76%;
+				height: 100%;
+				outline: none;
+				border: none;
+				padding: 3px;
+				margin-left: 1.4%;
+
+			}
+
+	}
+.button_box
+	{
+		width: 100%;
+	}
+.con_button
+	{
+		width: 24%;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		background: none;
+		margin-right: 20px;
+		margin-top: 1%;
+	}
+
+
+
+
+
+
+
+
+

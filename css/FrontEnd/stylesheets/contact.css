@@ -1,0 +1,178 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/contact.scss */
+.contact {
+  margin: 0px auto;
+  width: 639px;
+  /*width: 34.3%;*/
+}
+
+/* line 16, ../sass/contact.scss */
+.con_notice {
+  padding-left: 2%;
+  color: #706c6b;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 4px;
+}
+
+/* line 24, ../sass/contact.scss */
+.con_type {
+  color: #323232;
+  font-size: 12px;
+  padding-top: 1%;
+}
+
+/* line 30, ../sass/contact.scss */
+.con_typebox {
+  padding-top: 1.4%;
+  padding-bottom: 1.4%;
+  height: 43px;
+}
+/* line 35, ../sass/contact.scss */
+.con_typebox .con_name {
+  padding-top: 1%;
+}
+/* line 39, ../sass/contact.scss */
+.con_typebox .name {
+  width: 55%;
+}
+/* line 43, ../sass/contact.scss */
+.con_typebox .mail {
+  width: 71%;
+}
+/* line 47, ../sass/contact.scss */
+.con_typebox .phone {
+  width: 27%;
+}
+/* line 51, ../sass/contact.scss */
+.con_typebox .add {
+  width: 76%;
+}
+/* line 55, ../sass/contact.scss */
+.con_typebox .con_input {
+  outline: none;
+  height: 100%;
+  margin-left: 1.4%;
+  border: none;
+  padding-left: 3px;
+}
+/* line 63, ../sass/contact.scss */
+.con_typebox .import {
+  color: #982e0d;
+  padding: 1%;
+}
+/* line 68, ../sass/contact.scss */
+.con_typebox .textarea {
+  width: 76%;
+  height: 129px;
+  outline: none;
+  border: none;
+  padding: 3px;
+  margin-left: 1.4%;
+}
+
+/* line 80, ../sass/contact.scss */
+.con_typebox_a {
+  padding-top: 1.4%;
+  padding-bottom: 1.4%;
+  height: 129px;
+}
+/* line 85, ../sass/contact.scss */
+.con_typebox_a .con_name {
+  padding-top: 1%;
+}
+/* line 89, ../sass/contact.scss */
+.con_typebox_a .textarea {
+  width: 76%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 3px;
+  margin-left: 1.4%;
+}
+
+/* line 101, ../sass/contact.scss */
+.button_box {
+  width: 100%;
+}
+
+/* line 105, ../sass/contact.scss */
+.con_button {
+  width: 24%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  margin-right: 20px;
+  margin-top: 1%;
+}
